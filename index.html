@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="utf-8">
+        <meta name="Lucky Number Picker" content="Picks Lottery Numbers">
+        <link href="style.css" rel="stylesheet">
+        <script src="main.js"></script>
+        <title>Lucky Number Picker</title>
+    </head>
+    <body>
+        <h1>The Lucky Number Picker</h1>
+        <h2>Your Lucky Numbers for Mega Millions are:</h2>
+        <script>
+            let numArray1 = [];
+                for (i = 0; i < 5; i++){
+                let num = Math.floor(Math.random() * 70) + 1;
+                numArray1.push(num);
+                                        } 
+                let bonusBall1 = Math.floor(Math.random() * 25) + 1;
+                console.log(numArray1, bonusBall1);
+        </script>
+        <h2>Your Lucky Numbers for PowerBall are:</h2>
+    </body>
+</html>
