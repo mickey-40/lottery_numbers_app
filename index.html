@@ -10,15 +10,9 @@
     <body>
         <h1>The Lucky Number Picker</h1>
         <h2>Your Lucky Numbers for Mega Millions are:</h2>
-        <script>
-            let numArray1 = [];
-                for (i = 0; i < 5; i++){
-                let num = Math.floor(Math.random() * 70) + 1;
-                numArray1.push(num);
-                                        } 
-                let bonusBall1 = Math.floor(Math.random() * 25) + 1;
-                console.log(numArray1, bonusBall1);
-        </script>
+        <p id="meganum"></p>
         <h2>Your Lucky Numbers for PowerBall are:</h2>
+        <p id="powernum"></p>
+        <button id="generate">Generate</button>
     </body>
 </html>
